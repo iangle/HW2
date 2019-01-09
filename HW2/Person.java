@@ -26,6 +26,7 @@ public abstract class Person {
 
 	/**@param phoneNumber a number from the user, replaces the citizens number with it*/
 	public void setPhoneNumber(String phoneNumber) {
+		//PT -- do some checking to make sure this is a valid phone number
 		this.phoneNumber = phoneNumber;
 	}
 
@@ -36,6 +37,7 @@ public abstract class Person {
 
 	/**@param age, an age that replaces the citizens age*/
 	public void setAge(int age) {
+		//PT -- Again, make sure this is a valid age -2
 		this.age = age;
 	}
 
