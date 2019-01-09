@@ -3,6 +3,7 @@
  * in the city. They have a name and an address*/
 package HW2.edu.whitworth.spokane;
 
+//PT -- Why isn't this in the same folder as the other files?
 public abstract class Building {
 	String name,address;
 	/**@param takes a name and an address for the building that 
@@ -13,4 +14,5 @@ public abstract class Building {
 	}
 	
 }
+//PT -- and what's this?
 "# HW2" 
